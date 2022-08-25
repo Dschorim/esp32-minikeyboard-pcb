@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/jorim/Documents/esp32-minikeyboard-pcb/esp32-minikeyboard-pcb/esp32-minikeyboard-pcb.kicad_sch</source>
+    <date>Thu 25 Aug 2022 03:06:07 PM CEST</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>esp32-minikeyboard-pcb.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35c817d7-a73c-48ea-b623-2f98b9eaff5f</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9c24fdd-d1fb-4d85-b561-a7290ccba3e4</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db637c34-4990-4d46-9e27-fd9f5f4998d2</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90923e30-ca16-4377-ace5-e0ed52405a11</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>IR12-21C</value>
+      <footprint>kicad-parts:LED_IR12-21C_TR8</footprint>
+      <libsource lib="PT12-21C_TR8" part="IR12-21C" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1ff8f32-7df2-48b2-9aa8-bd005a0f5f91</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>IR12-21C</value>
+      <footprint>kicad-parts:LED_IR12-21C_TR8</footprint>
+      <libsource lib="PT12-21C_TR8" part="IR12-21C" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a852b0db-91be-4d9f-8895-fffb0a8e9df6</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>IR12-21C</value>
+      <footprint>kicad-parts:LED_IR12-21C_TR8</footprint>
+      <libsource lib="PT12-21C_TR8" part="IR12-21C" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8be2722-7351-4095-a96f-39ab037720c6</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>IR12-21C</value>
+      <footprint>kicad-parts:LED_IR12-21C_TR8</footprint>
+      <libsource lib="PT12-21C_TR8" part="IR12-21C" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d951e0a5-a523-4e99-9388-3201ef0d66a4</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>SK6805</value>
+      <footprint>LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="SK6805" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31fe8bbd-8086-4503-a5f6-7ce953fc4b72</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>SK6805</value>
+      <footprint>LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="SK6805" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>194bccad-c9b4-4a42-a7a1-d23adeb41074</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>SK6805</value>
+      <footprint>LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="SK6805" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5389c7b1-2360-45d0-bedd-9f1386f0ecb0</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>SK6805</value>
+      <footprint>LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="SK6805" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15274728-91c7-4db2-91ea-9db9d8cca43d</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>PT12-21C/TR8</value>
+      <footprint>kicad-parts:TRANS_PT12-21C_TR8</footprint>
+      <fields>
+        <field name="MF">Everlight Electronics</field>
+        <field name="PARTREV">4</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="PT12-21C_TR8" part="PT12-21C{slash}TR8" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="4"/>
+      <property name="MF" value="Everlight Electronics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cfe73fd-e47a-4e6d-b6d2-f4d13f35484e</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>PT12-21C/TR8</value>
+      <footprint>kicad-parts:TRANS_PT12-21C_TR8</footprint>
+      <fields>
+        <field name="MF">Everlight Electronics</field>
+        <field name="PARTREV">4</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="PT12-21C_TR8" part="PT12-21C{slash}TR8" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="4"/>
+      <property name="MF" value="Everlight Electronics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23f1a1e9-72c8-4c9d-9e59-232864042ea8</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>PT12-21C/TR8</value>
+      <footprint>kicad-parts:TRANS_PT12-21C_TR8</footprint>
+      <fields>
+        <field name="MF">Everlight Electronics</field>
+        <field name="PARTREV">4</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="PT12-21C_TR8" part="PT12-21C{slash}TR8" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="4"/>
+      <property name="MF" value="Everlight Electronics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85817d47-3066-4eba-8fba-0f5878eb7ba4</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>PT12-21C/TR8</value>
+      <footprint>kicad-parts:TRANS_PT12-21C_TR8</footprint>
+      <fields>
+        <field name="MF">Everlight Electronics</field>
+        <field name="PARTREV">4</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="PT12-21C_TR8" part="PT12-21C{slash}TR8" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="4"/>
+      <property name="MF" value="Everlight Electronics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4991fb5-b347-41c9-9683-754990b51281</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfa8af87-bfc5-4ddd-be04-078a84e00040</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84008b42-523e-4043-a152-c4a3be17f716</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8dacbb94-77fa-4962-8462-3acc559a704c</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65cad39c-2bec-4c96-b8c3-290421d89920</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fe0adb4-258f-4a12-8790-ccfd3dcfd7db</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3bd2dcba-d27c-4986-a6ec-986baf6479bc</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dccd94bc-f3d7-4634-83ed-37c31b0e0fe2</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32-S3-DEVKITC-1-N8R2</value>
+      <footprint>XCVR_ESP32-S3-DEVKITC-1-N8R2</footprint>
+      <fields>
+        <field name="MANUFACTURER">Espressif</field>
+        <field name="PARTREV">V1</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ESP32-S3-DEVKITC-1-N8R2" part="ESP32-S3-DEVKITC-1-N8R2" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MANUFACTURER" value="Espressif"/>
+      <property name="PARTREV" value="V1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="esp32-minikeyboard-pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff9f7342-65c7-4e28-beec-70c5de2885c4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-S3-DEVKITC-1-N8R2" part="ESP32-S3-DEVKITC-1-N8R2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-S3-DEVKITC-1-N8R2</field>
+        <field name="Footprint">XCVR_ESP32-S3-DEVKITC-1-N8R2</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">Espressif</field>
+        <field name="PARTREV">V1</field>
+      </fields>
+      <pins>
+        <pin num="J1_1" name="3V3" type="power_in"/>
+        <pin num="J1_2" name="3V3" type="power_in"/>
+        <pin num="J1_3" name="RST" type="input"/>
+        <pin num="J1_4" name="GPIO4" type="bidirectional"/>
+        <pin num="J1_5" name="GPIO5" type="bidirectional"/>
+        <pin num="J1_6" name="GPIO6" type="bidirectional"/>
+        <pin num="J1_7" name="GPIO7" type="bidirectional"/>
+        <pin num="J1_8" name="GPIO15" type="bidirectional"/>
+        <pin num="J1_9" name="GPIO16" type="bidirectional"/>
+        <pin num="J1_10" name="GPIO17" type="bidirectional"/>
+        <pin num="J1_11" name="GPIO18" type="bidirectional"/>
+        <pin num="J1_12" name="GPIO8" type="bidirectional"/>
+        <pin num="J1_13" name="GPIO3" type="bidirectional"/>
+        <pin num="J1_14" name="GPIO46" type="bidirectional"/>
+        <pin num="J1_15" name="GPIO9" type="bidirectional"/>
+        <pin num="J1_16" name="GPIO10" type="bidirectional"/>
+        <pin num="J1_17" name="GPIO11" type="bidirectional"/>
+        <pin num="J1_18" name="GPIO12" type="bidirectional"/>
+        <pin num="J1_19" name="GPIO13" type="bidirectional"/>
+        <pin num="J1_20" name="GPIO14" type="bidirectional"/>
+        <pin num="J1_21" name="5V0" type="power_in"/>
+        <pin num="J1_22" name="GND" type="power_in"/>
+        <pin num="J3_1" name="GND" type="power_in"/>
+        <pin num="J3_2" name="U0TXD/GPIO43" type="bidirectional"/>
+        <pin num="J3_3" name="U0RXD/GPIO44" type="bidirectional"/>
+        <pin num="J3_4" name="GPIO1" type="bidirectional"/>
+        <pin num="J3_5" name="GPIO2" type="bidirectional"/>
+        <pin num="J3_6" name="MTMS/GPIO42" type="bidirectional"/>
+        <pin num="J3_7" name="MTDI/GPIO41" type="bidirectional"/>
+        <pin num="J3_8" name="MTDO/GPIO40" type="bidirectional"/>
+        <pin num="J3_9" name="MTCK/GPIO39" type="bidirectional"/>
+        <pin num="J3_10" name="GPIO38" type="bidirectional"/>
+        <pin num="J3_11" name="GPIO37" type="bidirectional"/>
+        <pin num="J3_12" name="GPIO36" type="bidirectional"/>
+        <pin num="J3_13" name="GPIO35" type="bidirectional"/>
+        <pin num="J3_14" name="GPIO0" type="bidirectional"/>
+        <pin num="J3_15" name="GPIO45" type="bidirectional"/>
+        <pin num="J3_16" name="GPIO48" type="bidirectional"/>
+        <pin num="J3_17" name="GPIO47" type="bidirectional"/>
+        <pin num="J3_18" name="GPIO21" type="bidirectional"/>
+        <pin num="J3_19" name="USB_D+/GPIO20" type="bidirectional"/>
+        <pin num="J3_20" name="USB_D-/GPIO19" type="bidirectional"/>
+        <pin num="J3_21" name="GND" type="power_in"/>
+        <pin num="J3_22" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="SK6805">
+      <description>RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf</docs>
+      <footprints>
+        <fp>LED*SK6805*PLCC*2.4x2.7mm*P1.3mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SK6805</field>
+        <field name="Footprint">LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm</field>
+        <field name="Datasheet">https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DOUT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="PT12-21C_TR8" part="IR12-21C">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">IR12-21C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="K" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PT12-21C_TR8" part="PT12-21C{slash}TR8">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PT12-21C{slash}TR8</field>
+        <field name="Footprint">kicad-parts:TRANS_PT12-21C_TR8</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">4</field>
+        <field name="MF">Everlight Electronics</field>
+      </fields>
+      <pins>
+        <pin num="C" name="" type="passive"/>
+        <pin num="E" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="ESP32-S3-DEVKITC-1-N8R2">
+      <uri>/home/jorim/Documents/kicad-parts/ESP32-S3-DEVKITC-1-N8R2.kicad_sym</uri>
+    </library>
+    <library logical="LED">
+      <uri>/usr/share/kicad/symbols//LED.kicad_sym</uri>
+    </library>
+    <library logical="PT12-21C_TR8">
+      <uri>/home/jorim/Documents/kicad-parts/PT12-21C_TR8.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3V3">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="J1_1" pinfunction="3V3" pintype="power_in"/>
+      <node ref="U1" pin="J1_2" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="2" name="5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D5" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D6" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D7" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D8" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="J1_21" pinfunction="5V0" pintype="power_in"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D1" pin="K" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="K" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="K" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="K" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D6" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D7" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D8" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="Q1" pin="E" pintype="passive"/>
+      <node ref="Q2" pin="E" pintype="passive"/>
+      <node ref="Q3" pin="E" pintype="passive"/>
+      <node ref="Q4" pin="E" pintype="passive"/>
+      <node ref="U1" pin="J1_22" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="J3_1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="J3_21" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="J3_22" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="4" name="LED_PIN">
+      <node ref="D5" pin="3" pinfunction="DIN" pintype="input"/>
+      <node ref="U1" pin="J1_4" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="Net-(D1-PadA)">
+      <node ref="D1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D2-PadA)">
+      <node ref="D2" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D3-PadA)">
+      <node ref="D3" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D4-PadA)">
+      <node ref="D4" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="D7" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="D8" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(D6-Pad3)">
+      <node ref="D6" pin="3" pinfunction="DIN" pintype="input"/>
+      <node ref="D7" pin="1" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="12" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="col1">
+      <node ref="Q1" pin="C" pintype="passive"/>
+      <node ref="Q2" pin="C" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="J1_5" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="col2">
+      <node ref="Q3" pin="C" pintype="passive"/>
+      <node ref="Q4" pin="C" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="J1_6" pinfunction="GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="row1">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="J1_7" pinfunction="GPIO7" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="row2">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="J1_8" pinfunction="GPIO15" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="unconnected-(R7-Pad2)">
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="unconnected-(U1-PadJ1_3)">
+      <node ref="U1" pin="J1_3" pinfunction="RST" pintype="input"/>
+    </net>
+    <net code="19" name="unconnected-(U1-PadJ1_9)">
+      <node ref="U1" pin="J1_9" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="unconnected-(U1-PadJ1_10)">
+      <node ref="U1" pin="J1_10" pinfunction="GPIO17" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="unconnected-(U1-PadJ1_11)">
+      <node ref="U1" pin="J1_11" pinfunction="GPIO18" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="unconnected-(U1-PadJ1_12)">
+      <node ref="U1" pin="J1_12" pinfunction="GPIO8" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="unconnected-(U1-PadJ1_13)">
+      <node ref="U1" pin="J1_13" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="unconnected-(U1-PadJ1_14)">
+      <node ref="U1" pin="J1_14" pinfunction="GPIO46" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="unconnected-(U1-PadJ1_15)">
+      <node ref="U1" pin="J1_15" pinfunction="GPIO9" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="unconnected-(U1-PadJ1_16)">
+      <node ref="U1" pin="J1_16" pinfunction="GPIO10" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="unconnected-(U1-PadJ1_17)">
+      <node ref="U1" pin="J1_17" pinfunction="GPIO11" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="unconnected-(U1-PadJ1_18)">
+      <node ref="U1" pin="J1_18" pinfunction="GPIO12" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="unconnected-(U1-PadJ1_19)">
+      <node ref="U1" pin="J1_19" pinfunction="GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="unconnected-(U1-PadJ1_20)">
+      <node ref="U1" pin="J1_20" pinfunction="GPIO14" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="unconnected-(U1-PadJ3_2)">
+      <node ref="U1" pin="J3_2" pinfunction="U0TXD/GPIO43" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="unconnected-(U1-PadJ3_3)">
+      <node ref="U1" pin="J3_3" pinfunction="U0RXD/GPIO44" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="unconnected-(U1-PadJ3_4)">
+      <node ref="U1" pin="J3_4" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="unconnected-(U1-PadJ3_5)">
+      <node ref="U1" pin="J3_5" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="unconnected-(U1-PadJ3_6)">
+      <node ref="U1" pin="J3_6" pinfunction="MTMS/GPIO42" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="unconnected-(U1-PadJ3_7)">
+      <node ref="U1" pin="J3_7" pinfunction="MTDI/GPIO41" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="unconnected-(U1-PadJ3_8)">
+      <node ref="U1" pin="J3_8" pinfunction="MTDO/GPIO40" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="unconnected-(U1-PadJ3_9)">
+      <node ref="U1" pin="J3_9" pinfunction="MTCK/GPIO39" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="unconnected-(U1-PadJ3_10)">
+      <node ref="U1" pin="J3_10" pinfunction="GPIO38" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="unconnected-(U1-PadJ3_11)">
+      <node ref="U1" pin="J3_11" pinfunction="GPIO37" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="unconnected-(U1-PadJ3_12)">
+      <node ref="U1" pin="J3_12" pinfunction="GPIO36" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="unconnected-(U1-PadJ3_13)">
+      <node ref="U1" pin="J3_13" pinfunction="GPIO35" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="unconnected-(U1-PadJ3_14)">
+      <node ref="U1" pin="J3_14" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="unconnected-(U1-PadJ3_15)">
+      <node ref="U1" pin="J3_15" pinfunction="GPIO45" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="unconnected-(U1-PadJ3_16)">
+      <node ref="U1" pin="J3_16" pinfunction="GPIO48" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="unconnected-(U1-PadJ3_17)">
+      <node ref="U1" pin="J3_17" pinfunction="GPIO47" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="unconnected-(U1-PadJ3_18)">
+      <node ref="U1" pin="J3_18" pinfunction="GPIO21" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="unconnected-(U1-PadJ3_19)">
+      <node ref="U1" pin="J3_19" pinfunction="USB_D+/GPIO20" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="unconnected-(U1-PadJ3_20)">
+      <node ref="U1" pin="J3_20" pinfunction="USB_D-/GPIO19" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>
